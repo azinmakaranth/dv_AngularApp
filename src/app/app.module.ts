@@ -9,6 +9,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import { SharedDataService } from './service/share-data';
 import { RiverGraphComponent } from './river-graph/river-graph.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { RiverGraphComponent } from './river-graph/river-graph.component';
     BrowserModule,
     AppRoutingModule,
     NoopAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    FormsModule
   ],
   providers: [
     SharedDataService

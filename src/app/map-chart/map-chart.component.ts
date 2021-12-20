@@ -68,7 +68,9 @@ export class MapChartComponent {
         panX: "rotateX",
         panY: "rotateY",
         projection: am5map.geoOrthographic(),
-        layout: root.horizontalLayout
+        layout: root.horizontalLayout,
+        rotationX: -80,
+        rotationY:-15
       }));
 
 
